@@ -4,11 +4,11 @@
     "slug": "thats-me",
     "version": "1.0.0",
     "orientation": "landscape",
-    "icon": "./assets/icon.png",
+    "icon": "./icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#EAF4F0"
     },
@@ -24,23 +24,23 @@
     "android": {
       "package": "com.cooperjackman.thatsme",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./adaptive-icon.png",
         "backgroundColor": "#EAF4F0"
       },
       "edgeToEdgeEnabled": true
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./favicon.png"
     },
     "plugins": [
-      [
-        "expo-audio",
-        {
-          "microphonePermission": false
-        }
-      ],
+      ["expo-audio", { "microphonePermission": false }],
       "expo-screen-orientation",
       "expo-asset"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "PASTE-PROJECT-ID-HERE"
+      }
+    }
   }
 }
