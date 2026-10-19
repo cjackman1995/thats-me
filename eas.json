@@ -13,7 +13,7 @@
     },
     "production": {
       "autoIncrement": true,
-      "ios": { "image": "latest" }
+      "ios": { "image": "default" }
     }
   },
   "submit": {
