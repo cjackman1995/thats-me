@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "That's Me!",
+    "slug": "thats-me",
+    "version": "1.0.0",
+    "orientation": "landscape",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#EAF4F0"
+    },
+    "ios": {
+      "bundleIdentifier": "com.cooperjackman.thatsme",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "requireFullScreen": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.cooperjackman.thatsme",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#EAF4F0"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-audio",
+        {
+          "microphonePermission": false
+        }
+      ],
+      "expo-screen-orientation",
+      "expo-asset"
+    ]
+  }
+}
